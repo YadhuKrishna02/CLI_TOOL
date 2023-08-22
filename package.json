@@ -1,0 +1,18 @@
+{
+  "name": "geektrust",
+  "version": "1.0.0",
+  "description": "geektrust-project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node geektrust.js",
+    "test": "mocha",
+    "build": "npm run test"
+  },
+  "author": "geektrust",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.0.0"
+  }
+}
